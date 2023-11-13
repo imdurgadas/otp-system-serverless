@@ -1,0 +1,21 @@
+{
+  "name": "@otp-system-serverless/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.449.0",
+    "@aws-sdk/lib-dynamodb": "^3.449.0",
+    "@types/aws-lambda": "^8.10.126",
+    "@types/node": "^20.9.0",
+    "sst": "^2.36.1",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.7",
+    "uuid": "^9.0.1"
+  }
+}
